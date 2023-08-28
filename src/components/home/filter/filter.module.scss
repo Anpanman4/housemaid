@@ -1,0 +1,90 @@
+.filter {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 54px 0 121px;
+  background-color: var(--aqua-color);
+
+  .filter__title {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: var(--purple-color);
+    margin: 0 0 62px;
+    padding: 0;
+  }
+
+  .filter__subtitle {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    color: var(--purple-color);
+    margin: 0;
+    padding: 0;
+  }
+
+  .filter__container {
+    max-width: 717px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px 40px;
+    margin: 40px 0 82px;
+    padding: 0;
+
+    .filter__button {
+      width: 100%;
+      height: 86px;
+      box-sizing: border-box;
+      border: 0;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 1.2;
+      letter-spacing: 0em;
+      text-align: center;
+      margin: 0;
+      padding: 27px 0;
+      box-shadow: -5px -6px 1px 0px #000000 inset, 6px 5px 1px 0px #bebebe inset;
+    }
+  }
+
+  .filter__container_horizontal {
+    max-width: 680px;
+    flex-direction: row;
+  }
+
+  .filter__send {
+    max-width: 320px;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 175px 0 0;
+    box-shadow: -5px -6px 1px 0px #000000 inset, 6px 5px 1px 0px #bebebe inset;
+  }
+
+  .filter__input {
+    max-width: 745px;
+    width: 100%;
+    max-height: 86px;
+    box-sizing: border-box;
+    border: 5px solid var(--purple-color);
+    background-color: var(--aqua-color);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    margin: 0;
+    padding: 25px 36px;
+    color: var(--purple-color);
+    outline: none;
+  }
+}

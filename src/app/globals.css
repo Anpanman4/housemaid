@@ -1,0 +1,11 @@
+:root {
+  --max-width: 1100px;
+  --purple-color: #312436;
+  --black-purple-color: #322436;
+  --aqua-color: #4ceaca;
+}
+
+:body {
+  padding: 0;
+  margin: 0;
+}
