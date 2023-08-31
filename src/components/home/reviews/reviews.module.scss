@@ -23,10 +23,18 @@
 
     .reviews__arrow {
       width: 40px;
-      height: 34.15px;
+      height: auto;
       position: absolute;
       top: calc(50% - 17.6px);
+    }
+
+    .reviews__arrow_right {
       right: -69px;
+    }
+
+    .reviews__arrow_left {
+      left: -69px;
+      transform: rotate(180deg);
     }
   }
 }
