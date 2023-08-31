@@ -1,7 +1,7 @@
 import Link from "next/link";
 import style from "./preview.module.scss";
 import Image from "next/image";
-import welcomeImage from "../../../images/welcome.jpg";
+import welcomeImage from "../../../../public/welcome.jpg";
 
 const Preview = () => {
   return (
@@ -18,7 +18,7 @@ const Preview = () => {
         <h1 className={style.preview__title}>LET ME DO THE CLEANING: DISCOVER THE BENEFITS OF MY SERVICES</h1>
         <button className={style.preview__button}>SCHEDULE</button>
       </div>
-      <Image className={style.preview__image} alt="Homemade" src={welcomeImage}></Image>
+      <Image className={style.preview__image} alt="Homemade" src={welcomeImage} priority={true}></Image>
     </section>
   );
 };

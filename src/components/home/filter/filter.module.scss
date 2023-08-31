@@ -17,6 +17,7 @@
   }
 
   .filter__subtitle {
+    font-family: var(--font-molengo);
     font-size: 40px;
     font-weight: 400;
     line-height: 1.2;
@@ -40,6 +41,7 @@
       height: 86px;
       box-sizing: border-box;
       border: 0;
+      font-family: var(--font-molengo);
       font-weight: 400;
       font-size: 30px;
       line-height: 1.2;
@@ -62,6 +64,7 @@
     height: 100px;
     box-sizing: border-box;
     border: 0;
+    font-family: var(--font-fjalla-one);
     font-size: 40px;
     font-weight: 400;
     line-height: 1.25;
@@ -78,6 +81,7 @@
     box-sizing: border-box;
     border: 5px solid var(--purple-color);
     background-color: var(--aqua-color);
+    font-family: var(--font-molengo);
     font-weight: 400;
     font-size: 30px;
     line-height: 1.2;

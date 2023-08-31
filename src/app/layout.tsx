@@ -1,8 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Fjalla_One } from "next/font/google";
+import { Fjalla_One, Molengo } from "next/font/google";
 
-const fjalla_One = Fjalla_One({ weight: "400", subsets: ["latin"] });
+const fjallaOne = Fjalla_One({ weight: "400", variable: "--font-fjalla-one", subsets: ["latin"] });
+const molengo = Molengo({ weight: "400", variable: "--font-molengo", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -11,8 +12,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={fjalla_One.className} style={{ margin: 0 }}>
+    <html lang="en" className={`${fjallaOne.variable} ${molengo.variable}`}>
+      <body className={`${fjallaOne.className}`} style={{ margin: 0 }}>
         {children}
       </body>
     </html>

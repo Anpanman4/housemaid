@@ -3,7 +3,7 @@ import Image from "next/image";
 import Card from "./card/card";
 import style from "./reviews.module.scss";
 import peoples from "./utils";
-import arrow from "@/images/arrow.svg";
+import arrow from "/public/arrow.svg";
 import { useState } from "react";
 
 const Reviews = () => {
@@ -21,7 +21,7 @@ const Reviews = () => {
       <div className={style.reviews__container}>
         <Card people={peoples[currentCards.first]}></Card>
         <Card people={peoples[currentCards.second]}></Card>
-        <Image className={style.reviews__arrow} onClick={moveReview} src={arrow} alt="Next"></Image>
+        <Image className={style.reviews__arrow} onClick={moveReview} src={arrow} alt="Next" priority={true}></Image>
       </div>
     </section>
   );

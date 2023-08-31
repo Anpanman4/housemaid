@@ -4,7 +4,7 @@ import Image from "next/image";
 interface IPlace {
   title: string;
   text: string;
-  imageSrc: string;
+  imageSrc: any;
 }
 
 const Place = (props: IPlace) => {

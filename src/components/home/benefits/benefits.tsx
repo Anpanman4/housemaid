@@ -1,6 +1,6 @@
 import style from "./benefits.module.scss";
 import Image from "next/image";
-import benefits from "../../../images/benefits.jpg";
+import benefits from "/public/benefits.jpg";
 
 const Benefits = () => {
   return (
